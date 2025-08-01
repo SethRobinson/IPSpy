@@ -14,6 +14,7 @@ When you plug any device (phone, computer, IoT device, etc.) inbetween a device 
 - Transparently bridge the device to your network
 - Monitor DHCP and ARP traffic in real-time
 - Display the MAC and IP of the device on the OLED display
+- (Note: for most setups, it likely doesn't actually have to be between the device and the router, but just on the same network)
 
 ## Hardware Required
 
