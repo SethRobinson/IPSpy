@@ -117,6 +117,7 @@ sudo python3 bridge_monitor.py
 - `oled-loading.service` - Systemd service to show "Loading..." on OLED display early in boot sequence
 - `oled_show_loading.py` - Script that displays loading message on OLED
 - `requirements.txt` - Python dependencies
+- `simple_start.sh` - A thing to run it with the virtual env oled-venv, but I mean, you don't have to use one, or you could do it with conda or whatever, it's not that important
 
 ### OLED Loading Service
 
