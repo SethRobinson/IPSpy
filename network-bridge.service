@@ -1,0 +1,13 @@
+[Unit]
+Description=Network Bridge Setup for Device Monitoring
+After=network-pre.target
+Before=network.target
+Wants=network-pre.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/pi/setup-bridge.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target 

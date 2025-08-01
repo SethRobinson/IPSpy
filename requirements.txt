@@ -1,0 +1,4 @@
+scapy>=2.4.5
+adafruit-circuitpython-ssd1306>=3.3.8
+adafruit-blinka>=8.0.0
+Pillow>=9.0.0 

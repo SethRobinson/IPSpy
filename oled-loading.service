@@ -1,0 +1,14 @@
+[Unit]
+Description=Show Loading message on OLED
+DefaultDependencies=no
+After=local-fs.target
+
+[Service]
+Type=oneshot
+User=pi
+RemainAfterExit=yes
+WorkingDirectory=/home/pi
+ExecStart=/home/pi/oled-venv/bin/python3 /home/pi/oled_show_loading.py
+
+[Install]
+WantedBy=sysinit.target 
